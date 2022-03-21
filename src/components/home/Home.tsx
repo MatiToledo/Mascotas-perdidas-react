@@ -1,9 +1,8 @@
-import React from "react";
-import { parentPort } from "worker_threads";
-import { petsAround } from "../../../lib/api";
 import { ButtonPrim } from "../../ui/buttons";
 import { MyText } from "../../ui/text";
+import React from "react";
 import css from "./home.css";
+import { petsAround } from "../../../lib/api";
 
 interface myOnClick {
   ubicationHandler: (any) => void;

@@ -1,9 +1,9 @@
-import React from "react";
 import { ButtonPrim } from "../../ui/buttons";
-import { MyText } from "../../ui/text";
 import { MyInput } from "../../ui/text-fields";
-import css from "./log-up.css";
+import { MyText } from "../../ui/text";
+import React from "react";
 import { auth } from "../../../lib/api";
+import css from "./log-up.css";
 import { useNavigate } from "react-router-dom";
 
 export function LogUp() {

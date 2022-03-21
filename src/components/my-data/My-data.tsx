@@ -1,7 +1,7 @@
-import React from "react";
 import { ButtonPrim } from "../../ui/buttons";
-import { MyText } from "../../ui/text";
 import { MyInput } from "../../ui/text-fields";
+import { MyText } from "../../ui/text";
+import React from "react";
 import css from "./my-data.css";
 import { modifyData } from "../../../lib/api";
 import { useAuth } from "../../hooks";

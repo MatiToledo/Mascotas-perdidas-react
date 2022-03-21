@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import { ButtonPrim } from "../../ui/buttons";
-import { MyText } from "../../ui/text";
-import { MyInput } from "../../ui/text-fields";
-import { MyPetCard } from "../../ui/my-pet-card/My-pet-card";
-import css from "./my-pets.css";
-import { modifyData, myPets } from "../../../lib/api";
 import { useAuth, useGetMyPets } from "../../hooks";
+
+import { MyPetCard } from "../../ui/my-pet-card/My-pet-card";
+import { MyText } from "../../ui/text";
+import React from "react";
+import css from "./my-pets.css";
 
 export function MyPetsComp() {
   const auth = useAuth();

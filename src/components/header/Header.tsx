@@ -1,6 +1,6 @@
-import React from "react";
 import { Logo } from "../../ui/logo";
 import { Menu } from "../menu/Menu";
+import React from "react";
 import css from "./header.css";
 
 export function Header() {

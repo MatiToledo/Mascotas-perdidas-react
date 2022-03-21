@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+
 import { HomeComp } from "../../components/home/Home";
-import { useAuth } from "../../hooks";
-import { PetCard } from "../../ui/pet-card/Pet-card";
-import { PopUp } from "../../ui/pop-up/Pop-up";
 import { MyText } from "../../ui/text";
+import { PetCard } from "../../ui/pet-card/Pet-card";
 import css from "./home.css";
+import { useAuth } from "../../hooks";
 
 export function Home() {
   const [cards, setCards] = useState([] as any);

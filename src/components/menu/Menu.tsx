@@ -1,9 +1,9 @@
+import { Link, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
+
 import { Burger } from "../../ui/burger";
-import { Logo } from "../../ui/logo";
 import css from "./menu.css";
 import img from "../../images/close.png";
-import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../hooks";
 
 export function Menu() {

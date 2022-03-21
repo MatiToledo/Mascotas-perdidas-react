@@ -1,14 +1,8 @@
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import {
-  selector,
-  atom,
-  useRecoilState,
-  useRecoilValue,
-  useSetRecoilState,
-} from "recoil";
-import { recoilPersist } from "recoil-persist";
+import { atom, selector, useRecoilValue, useSetRecoilState } from "recoil";
 import { myPets, toEditPetReport } from "../../lib/api";
+
+import { recoilPersist } from "recoil-persist";
+import { useEffect } from "react";
 
 const { persistAtom } = recoilPersist();
 

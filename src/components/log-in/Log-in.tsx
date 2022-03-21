@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { ButtonPrim } from "../../ui/buttons";
-import { MyText } from "../../ui/text";
-import { MyInput } from "../../ui/text-fields";
 import { Link, useNavigate } from "react-router-dom";
-import { auth, authToken, checkEmail } from "../../../lib/api";
+import React, { useState } from "react";
+import { authToken, checkEmail } from "../../../lib/api";
+
+import { ButtonPrim } from "../../ui/buttons";
+import { MyInput } from "../../ui/text-fields";
+import { MyText } from "../../ui/text";
 import css from "./log-in.css";
 import { useLogIn } from "../../hooks";
 

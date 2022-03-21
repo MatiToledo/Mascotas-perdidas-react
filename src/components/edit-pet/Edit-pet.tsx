@@ -1,19 +1,17 @@
-import React, { useState, useEffect, useRef } from "react";
-import { ButtonPrim, ButtonSec } from "../../ui/buttons";
-import { MyInput, MyTextArea } from "../../ui/text-fields";
-import { MyText } from "../../ui/text";
-import { useAuth, useGetToEditPet, useToEditPet } from "../../hooks";
-import css from "./edit-pet.css";
-
-import { useDropzone } from "react-dropzone";
-import dropImg from "../../images/dropzone.jpeg";
-
-import GeocoderService from "@mapbox/mapbox-sdk/services/geocoding";
-import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-import { editPetReport, toEditPetReport } from "../../../lib/api";
+import { ButtonPrim, ButtonSec } from "../../ui/buttons";
+import { MyInput, MyTextArea } from "../../ui/text-fields";
+import React, { useEffect, useRef, useState } from "react";
+import { useAuth, useGetToEditPet } from "../../hooks";
 import { useNavigate, useParams } from "react-router-dom";
+
+import GeocoderService from "@mapbox/mapbox-sdk/services/geocoding";
+import { MyText } from "../../ui/text";
+import css from "./edit-pet.css";
+import { editPetReport } from "../../../lib/api";
+import mapboxgl from "mapbox-gl";
+import { useDropzone } from "react-dropzone";
 
 export function EditPetComp() {
   const auth = useAuth();

@@ -1,18 +1,17 @@
-import React, { useState, useEffect, useRef } from "react";
-import { ButtonPrim, ButtonSec } from "../../ui/buttons";
-import { MyInput, MyTextArea } from "../../ui/text-fields";
-import { MyText } from "../../ui/text";
-import { useAuth } from "../../hooks";
-import css from "./report-pet.css";
-
-import { useDropzone } from "react-dropzone";
-import dropImg from "../../images/dropzone.jpeg";
-
-import GeocoderService from "@mapbox/mapbox-sdk/services/geocoding";
-import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
+import { ButtonPrim, ButtonSec } from "../../ui/buttons";
+import { MyInput, MyTextArea } from "../../ui/text-fields";
+import React, { useEffect, useRef, useState } from "react";
+
+import GeocoderService from "@mapbox/mapbox-sdk/services/geocoding";
+import { MyText } from "../../ui/text";
 import { createPetReport } from "../../../lib/api";
+import css from "./report-pet.css";
+import dropImg from "../../images/dropzone.jpeg";
+import mapboxgl from "mapbox-gl";
+import { useAuth } from "../../hooks";
+import { useDropzone } from "react-dropzone";
 import { useNavigate } from "react-router-dom";
 
 export function ReportPetComp() {
