@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: black;
+}
+.subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #363636;
+}
+
+.body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 1.5;
+  margin: 0;
+}

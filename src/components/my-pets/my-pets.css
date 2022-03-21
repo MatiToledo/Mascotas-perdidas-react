@@ -1,0 +1,28 @@
+.root {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 350px;
+  height: 340px;
+}
+
+.inexist {
+  margin: 90px auto;
+}
+
+.pets_container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

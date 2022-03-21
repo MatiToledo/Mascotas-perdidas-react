@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  margin: 20px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.img {
+  width: 350px;
+  height: 230px;
+  background-size: cover;
+}
+
+.name {
+  padding: 24px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #ececec;
+}
+
+.report {
+  border-left: 1px solid #ececec;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  font-family: "Inter";
+  color: #485fc7;
+  font-size: 18px;
+}

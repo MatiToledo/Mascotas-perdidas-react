@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+
+    "jsx": "react"
+  },
+  "include": ["src/**/*.*"]
+}

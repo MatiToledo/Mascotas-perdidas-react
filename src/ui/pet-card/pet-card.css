@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  margin: 20px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.img {
+  width: 350px;
+  height: 230px;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 24px;
+}
+
+.location {
+  margin-top: 15px;
+}
+
+.report {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  font-family: "Inter";
+  color: #485fc7;
+  font-size: 18px;
+  border-top: 1px solid #ececec;
+}

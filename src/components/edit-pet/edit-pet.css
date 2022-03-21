@@ -1,0 +1,51 @@
+.root {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 350px;
+  height: 1000px;
+}
+
+.load {
+  align-items: center;
+  background-color: #ffe08a;
+  border-color: transparent;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  min-height: 40px;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  font-family: "Inter";
+  font-size: 15.8px;
+}
+
+.img {
+  width: 350px;
+  height: 260px;
+}
+
+.mapbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.map {
+  height: 300px;
+}

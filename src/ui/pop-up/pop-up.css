@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 500px;
+  height: 320px;
+}
+
+.img {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 15px;
+  height: 15px;
+}

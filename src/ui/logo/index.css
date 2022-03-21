@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  width: 40px;
+  height: 40px;
+}

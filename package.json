@@ -1,0 +1,48 @@
+{
+  "name": "m8-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:be": "ts-node ./server/index.ts",
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.13.2",
+    "@sendgrid/mail": "^7.6.2",
+    "@types/node": "^17.0.5",
+    "@types/react": "^17.0.34",
+    "algoliasearch": "^4.11.0",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "file-loader": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "live-server": "^1.2.1",
+    "mapbox-gl": "^2.6.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.2",
+    "react-mapbox-gl": "^5.1.1",
+    "react-router-dom": "^6.0.2",
+    "recoil": "^0.5.2",
+    "recoil-persist": "^4.0.0",
+    "sequelize": "^6.12.4",
+    "style-loader": "^3.3.1"
+  }
+}

@@ -1,0 +1,15 @@
+.root {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pets_container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

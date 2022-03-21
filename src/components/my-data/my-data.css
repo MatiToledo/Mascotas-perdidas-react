@@ -1,0 +1,15 @@
+.root {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 350px;
+  height: 340px;
+}

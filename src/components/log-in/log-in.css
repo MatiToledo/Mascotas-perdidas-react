@@ -1,0 +1,25 @@
+.root {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px auto;
+  width: 350px;
+  height: 240px;
+}
+
+.link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  color: #485fc7;
+  text-align: center;
+}
