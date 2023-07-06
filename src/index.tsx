@@ -4,13 +4,13 @@ import { AppRoutes } from "./router";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("app") as HTMLElement);
+root.render(
   <Suspense fallback={null}>
     <RecoilRoot>
       <BrowserRouter>
         <AppRoutes></AppRoutes>
       </BrowserRouter>
     </RecoilRoot>
-  </Suspense>,
-  document.getElementById("app")
+  </Suspense>
 );
