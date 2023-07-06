@@ -5,7 +5,7 @@ const liveServer = require("live-server");
 if (dev) {
   liveServer.start({
     root: "./",
-    file: "index.html",
+    file: "public/index.html",
   });
 }
 
