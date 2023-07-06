@@ -27,7 +27,9 @@ export function EditPetComp() {
 
   function dropzoneFileManager(): [any, any] {
     const { getRootProps, getInputProps } = useDropzone({
-      accept: "image/*",
+      accept: {
+        "image/*": [".*"],
+      },
       maxSize: 20000000,
       onDrop: (acceptedFiles) => {
         const img = acceptedFiles[0];
@@ -153,14 +155,12 @@ export function EditPetComp() {
           type={"text"}
           name={"petName"}
           label={"Nombre"}
-          defaultValue={pet.petName}
-        ></MyInput>
+          defaultValue={pet.petName}></MyInput>
 
         <MyTextArea
           name={"petDescription"}
           label={"Descripcion"}
-          defaultValue={pet.petDescription}
-        ></MyTextArea>
+          defaultValue={pet.petDescription}></MyTextArea>
 
         <div {...getRootProps()}>
           <input {...getInputProps()} />
@@ -174,8 +174,7 @@ export function EditPetComp() {
               type={"text"}
               onChange={inputChangeHandler}
               label={"Ubicación"}
-              name={"query"}
-            ></MyInput>
+              name={"query"}></MyInput>
           </div>
           <ButtonSec onClick={handleClick}>Buscar</ButtonSec>
         </div>
