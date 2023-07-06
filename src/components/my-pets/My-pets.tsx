@@ -1,8 +1,8 @@
+import React, { useEffect } from "react";
 import { useAuth, useGetMyPets } from "../../hooks";
 
 import { MyPetCard } from "../../ui/my-pet-card/My-pet-card";
 import { MyText } from "../../ui/text";
-import React from "react";
 import css from "./my-pets.css";
 
 export function MyPetsComp() {

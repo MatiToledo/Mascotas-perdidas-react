@@ -1,4 +1,4 @@
-let API_BASE_URL = "https://desafio-m7.herokuapp.com";
+let API_BASE_URL = "https://mascotas-perdidas-back.onrender.com/api";
 
 export async function auth(data, callback?) {
   const call = await fetch(API_BASE_URL + "/auth", {
