@@ -1,6 +1,7 @@
 const path = require("path");
 const dev = process.env.NODE_ENV == "development";
 const liveServer = require("live-server");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 if (dev) {
   liveServer.start({
@@ -44,6 +45,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
   },
+  plugins: [new HtmlWebpackPlugin()],
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "build"),
