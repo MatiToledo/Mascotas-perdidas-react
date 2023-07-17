@@ -7,7 +7,7 @@
     "dev:be": "ts-node ./server/index.ts",
     "dev": "cross-env NODE_ENV=development webpack",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "live-server"
+    "start": "live-server --entry-file=public/index.html"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
